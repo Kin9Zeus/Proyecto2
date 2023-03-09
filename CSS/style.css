@@ -44,7 +44,7 @@ font-family: 'Vollkorn', serif;*/
 }
 /*Fin Iframe Mapa*/
 
-/*Nav GPT*/
+/*Nav T*/
 nav {
     background-color: #333;
     overflow: hidden;
@@ -72,7 +72,7 @@ nav a:hover {
     background-color: #ddd;
     color: black;
 }
-/*Fin Nav GPT*/
+/*Fin Nav T*/
 
 /*Banner Letras*/
 .contenedor{
@@ -126,7 +126,7 @@ body{
     background-size: cover;
 }
 
-/*Footer GPT*/
+/*Footer T*/
 footer {
     background-color: #f8f9fa;
     padding: 0.5px 0;
@@ -166,4 +166,4 @@ footer {
 .fab {
     font-size: 20px;
   }
-  /*Fin Footer GPT*/
+  /*Fin Footer T*/
