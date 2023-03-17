@@ -1,8 +1,12 @@
 /*font-family: 'Crimson Text', serif;
 font-family: 'Satisfy', cursive;
 font-family: 'Vollkorn', serif;*/
+*{
+    margin: 0;
+    padding: 0;
+}
 
-/*Grids*/
+/*Blog Grids*/
 .divMaster{
     display: grid;
     grid-template-columns: repeat(3, 0.5fr);
@@ -10,8 +14,8 @@ font-family: 'Vollkorn', serif;*/
     grid-template-areas: 
     "blboda blboda blboda"
     "nuhis est picks";
-    row-gap: 15px;
-    column-gap: 20px;
+    row-gap: 20px;
+    column-gap: 25px;
 }
 .BlBoda{
     grid-area: blboda;
@@ -26,7 +30,20 @@ font-family: 'Vollkorn', serif;*/
     grid-area: picks;
 }
 
-/*Fin Grids*/
+@media screen and (max-width: 576px) {
+    .divMaster{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 4fr;
+        grid-template-areas: 
+        "blboda"
+        "nuhis"
+        "est"
+        "picks";
+        row-gap: 15px;
+    }
+}
+/*Fin Blog Grids*/
 
 /*Iframe Mapa*/
 .embed-container {
@@ -51,7 +68,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 60px;
+    height: auto;
+    flex-wrap: wrap;
 }
 
 nav a {
@@ -88,17 +106,18 @@ nav a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: larger;
 }
 /*Fin Banner Letras*/
 
-
+/*General CSS*/
 h1 {
     font-family: 'Vollkorn', serif;
     font-weight: 500;
     text-align: center;
     align-items: flex-start;
+    padding: 10px;
 }
-
 
 .listas{
     text-align: center;
@@ -118,6 +137,13 @@ main p{
     font-size: larger;
     font-family: 'Vollkorn', serif;
     font-weight: 500;
+    padding: 25px;
+}
+
+.FPFonts{
+    font-size: larger;
+    font-family: 'Vollkorn', serif;
+    font-weight: 500;
 }
 
 body{
@@ -125,6 +151,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+/*General CSS*/
 
 /*Footer T*/
 footer {
