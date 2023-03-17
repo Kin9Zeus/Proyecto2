@@ -119,6 +119,12 @@ h1 {
     padding: 10px;
 }
 
+.carrusel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .listas{
     text-align: center;
     text-decoration: none;
