@@ -13,7 +13,8 @@ font-family: 'Vollkorn', serif;*/
     grid-template-rows: 0.05fr 1fr;
     grid-template-areas: 
     "blboda blboda blboda"
-    "nuhis est picks";
+    "nuhis est picks"
+    "carr carr carr";
     row-gap: 20px;
     column-gap: 25px;
 }
@@ -28,6 +29,16 @@ font-family: 'Vollkorn', serif;*/
 }
 .Picks{
     grid-area: picks;
+}
+.Carr{
+    grid-area: carr;
+}
+
+.Carru{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
 }
 
 @media screen and (max-width: 576px) {
@@ -117,12 +128,6 @@ h1 {
     text-align: center;
     align-items: flex-start;
     padding: 10px;
-}
-
-.carrusel{
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .listas{
