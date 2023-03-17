@@ -45,12 +45,13 @@ font-family: 'Vollkorn', serif;*/
     .divMaster{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 4fr;
+        grid-template-rows: 5fr;
         grid-template-areas: 
         "blboda"
         "nuhis"
         "est"
-        "picks";
+        "picks"
+        "carr";
         row-gap: 15px;
     }
 }
