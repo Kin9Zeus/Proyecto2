@@ -1,208 +1,198 @@
-/*font-family: 'Crimson Text', serif;
-font-family: 'Satisfy', cursive;
-font-family: 'Vollkorn', serif;*/
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 /*Blog Grids*/
-.divMaster{
-    display: grid;
-    grid-template-columns: repeat(3, 0.5fr);
-    grid-template-rows: 0.05fr 1fr;
-    grid-template-areas: 
-    "blboda blboda blboda"
-    "nuhis est picks"
-    "carr carr carr";
-    row-gap: 20px;
-    column-gap: 25px;
-}
-.BlBoda{
-    grid-area: blboda;
-}
-.NuHis{
-    grid-area: nuhis;
-}
-.Est{
-    grid-area: est;
-}
-.Picks{
-    grid-area: picks;
-}
-.Carr{
-    grid-area: carr;
+.divMaster {
+  display: grid;
+  grid-template-columns: repeat(3, 0.5fr);
+  grid-template-rows: 0.05fr 1fr;
+  grid-template-areas: "blboda blboda blboda" "nuhis est picks" "carr carr carr";
+  row-gap: 20px;
+  column-gap: 25px;
 }
 
-.Carru{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 30px;
+.BlBoda {
+  grid-area: blboda;
+}
+
+.NuHis {
+  grid-area: nuhis;
+}
+
+.Est {
+  grid-area: est;
+}
+
+.Picks {
+  grid-area: picks;
+}
+
+.Carr {
+  grid-area: carr;
+}
+
+.Carru {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
 }
 
 @media screen and (max-width: 576px) {
-    .divMaster{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 5fr;
-        grid-template-areas: 
-        "blboda"
-        "nuhis"
-        "est"
-        "picks"
-        "carr";
-        row-gap: 15px;
-    }
+  .divMaster {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5fr;
+    grid-template-areas: "blboda" "nuhis" "est" "picks" "carr";
+    row-gap: 15px;
+  }
 }
 /*Fin Blog Grids*/
-
 /*Iframe Mapa*/
 .embed-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
 }
 .embed-container iframe {
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
-/*Fin Iframe Mapa*/
 
+/*Fin Iframe Mapa*/
 /*Nav T*/
 nav {
-    background-color: #333;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    flex-wrap: wrap;
+  background-color: #333;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  flex-wrap: wrap;
 }
-
 nav a {
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
-
 nav h2 {
-    color: white;
-    text-align: right;
-    padding: 14px 16px;
-    text-decoration: none;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
 }
-
 nav a:hover {
-    background-color: #ddd;
-    color: black;
+  background-color: #ddd;
+  color: black;
 }
+
 /*Fin Nav T*/
-
 /*Banner Letras*/
-.contenedor{
-    position: relative;
-    display: inline-block;
-    text-align: center;
+.contenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center;
 }
- 
-.centrado{
-    font-family: 'Satisfy', cursive;
-    font-weight: 500;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: larger;
-}
-/*Fin Banner Letras*/
 
+.centrado {
+  font-family: "Satisfy", cursive;
+  font-weight: 500;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: larger;
+}
+
+/*Fin Banner Letras*/
 /*General CSS*/
 h1 {
-    font-family: 'Vollkorn', serif;
-    font-weight: 500;
-    text-align: center;
-    align-items: flex-start;
-    padding: 10px;
+  font-family: "Vollkorn", serif;
+  font-weight: 500;
+  text-align: center;
+  align-items: flex-start;
+  padding: 10px;
 }
 
-.listas{
-    text-align: center;
-    text-decoration: none;
-    list-style-type: none;
+.listas {
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
 }
 
-.FullP{
-    width: 100%;
+.FullP {
+  width: 100%;
 }
 
-main p{
-    text-align: center;
+main p {
+  text-align: center;
 }
 
-.PFonts{
-    font-size: larger;
-    font-family: 'Vollkorn', serif;
-    font-weight: 500;
-    padding: 25px;
+.PFonts {
+  font-size: larger;
+  font-family: "Vollkorn", serif;
+  font-weight: 500;
+  padding: 25px;
 }
 
-.FPFonts{
-    font-size: larger;
-    font-family: 'Vollkorn', serif;
-    font-weight: 500;
+.FPFonts {
+  font-size: larger;
+  font-family: "Vollkorn", serif;
+  font-weight: 500;
 }
 
-body{
-    background-image: url(../IMGs/BackGIMG.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+  background-image: url(../IMGs/BackGIMG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 /*General CSS*/
-
 /*Footer T*/
 footer {
-    background-color: #f8f9fa;
-    padding: 0.5px 0;
-    text-align: center;
-  }
+  background-color: #f8f9fa;
+  padding: 0.5px 0;
+  text-align: center;
+}
 
 .social-icons {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-  }
-  
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
 .social-icons li {
-    margin: 0 10px;
-  }
-  
+  margin: 0 10px;
+}
 .social-icons a {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #fff;
-    color: #222;
-    transition: background-color 0.3s ease;
-  }
-  
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #222;
+  transition: background-color 0.3s ease;
+}
 .social-icons a:hover {
-    background-color: #222;
-    color: #fff;
-  }
-  
+  background-color: #222;
+  color: #fff;
+}
+
 .fab {
-    font-size: 20px;
-  }
-  /*Fin Footer T*/
+  font-size: 20px;
+}
+
+/*Fin Footer T*/
+
+/*# sourceMappingURL=style.css.map */
