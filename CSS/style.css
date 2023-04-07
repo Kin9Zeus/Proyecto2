@@ -121,6 +121,11 @@ nav a:hover {
     transform: translate(-50%, -50%);
     font-size: larger;
 }
+@media screen and (max-width: 576px) {
+    .centrado{
+        font-size: small;
+    }
+}
 /*Fin Banner Letras*/
 
 /*General CSS*/
@@ -209,7 +214,9 @@ footer {
 .fab {
     font-size: 20px;
   }
-  /*Fin Footer T*/
+/*Fin Footer T*/
+
+/*Form CSS*/
 .formspc{
     padding: 20px;
 }
@@ -248,3 +255,4 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #555;
 }
+/*Fin Form CSS*/
